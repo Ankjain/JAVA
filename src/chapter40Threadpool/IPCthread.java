@@ -40,7 +40,7 @@ class Producer implements Runnable {
     public void run() {
         int i = 0;
         try {
-            while(true)  {
+            while(true) {
                 q.put(i++);
                 Thread.sleep(2000);
             }
